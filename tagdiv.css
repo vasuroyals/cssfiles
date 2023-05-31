@@ -1,0 +1,52 @@
+.div1{
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    transition-duration: 2s;
+}
+.div1:hover{
+    height: 300px;
+    width: 200px;
+    background-color: blueviolet;
+    transition-duration: 3s;
+}
+.image{
+    height: 200px;
+    width: 300px;
+    transition-duration: 3s;
+    border :solid 1px red;
+    border-color: crimson;
+
+}
+.image:hover{
+    transform: rotate(180deg);
+    transform:scale(2);
+    transform:translatey(100px);
+}
+.image1{
+    height: 100px;
+    width: 100px;
+    transition-duration: 2s;
+    border-style:dashed ;
+    border-color: brown;
+}
+.image1:hover{
+    transform: scale(3);
+}
+.image2{
+    height: 150px;
+    width: 150px;
+    border-style: dotted;
+    transition-duration: 4s;
+}
+.image2:hover{
+    transform: rotate(90deg);
+}
+.image3{
+    height: 200px;
+    width: 200px;
+    transition-duration: 5s;
+}
+.image3:hover{
+    transform:translate(50px);
+}

@@ -1,0 +1,17 @@
+.image1{
+    height: 200px;
+    width: 200px;
+    margin-left: 60px;
+    transition-duration: 5s;
+    animation-name: gani;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes gani {
+    30%{
+        height: 100px;
+        width: 100px;
+        float: right;
+    }
+    
+}
